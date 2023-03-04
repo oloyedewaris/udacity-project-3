@@ -1,0 +1,29 @@
+<form [formGroup]="order" (ngSubmit)="SubmitOrder()">
+    Full name <br><br>
+    <input required minlength="3" type="text" placeholder="min 3 characters" id="fullName" formControlName="fullName"
+        (ngModelChange)="validateName($event)">
+    <div *ngIf="fullname" class="error-message">
+        Please enter your full name with at least 3 characters
+    </div>
+
+
+    <br><br> <label>Address</label> <br><br>
+    <input required minlength="6" type="text" placeholder="min 6 characters" id="address" formControlName="address"
+        (ngModelChange)="validateAddress($event)">
+    <div *ngIf="address" class="error-message">
+        Please enter address with at least 6 characters
+    </div>
+
+
+    <br><br> Credit crad number <br><br>
+    <input required minlength="16" maxlength="16" type="text" id="creditcard" formControlName="creditcard"
+        (ngModelChange)="validateCard($event)" placeholder="16 digit">
+    <div *ngIf="creditcard" class="error-message">
+        Please enter valid card number with 16 digit only
+    </div>
+    <br> <br>
+
+
+    <button type="submit" class="submit-btn" [disabled]="order.invalid">Submit</button>
+
+</form>

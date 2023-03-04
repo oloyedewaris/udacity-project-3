@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Air",
+    "price": 9.99,
+    "url": "http://localhost:4200/assets/images/1625483603615_third3.jpg",
+    "description": "You can use it for day to day activities!"
+  },
+  {
+    "id": 2,
+    "name": "HP latitude",
+    "price": 249.99,
+    "url": "http://localhost:4200/assets/images/1625484191064_53.jpg",
+    "description": "Cost effective!"
+  },
+  {
+    "id": 3,
+    "name": "Acer Nitro",
+    "price": 79.99,
+    "url": "http://localhost:4200/assets/images/1625484767097_81.jpg",
+    "description": "Can play heavy games!"
+  },
+  {
+    "id": 4,
+    "name": "Asus",
+    "price": 129.99,
+    "url": "http://localhost:4200/assets/images/1625486202310_131.jpg",
+    "description": "Nice for school project!"
+  },
+  {
+    "id": 5,
+    "name": "Windows PC",
+    "price": 4.99,
+    "url": "http://localhost:4200/assets/images/1625486574892_92.jpg",
+    "description": "Good for windows OS!"
+  },
+  {
+    "id": 6,
+    "name": "Toshiba PC",
+    "price": 29.99,
+    "url": "http://localhost:4200/assets/images/1625487357636_151.jpg",
+    "description": "Good for gaming!"
+  }
+]
